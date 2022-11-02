@@ -1,22 +1,32 @@
 # Template
 
+index.html:
+
 ~~~html
 <!DOCTYPE html>
 <html>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.6.0/dist/tf.min.js"></script>
-
-<style>
-    body {
-        background-color: #282525;
-        color: white;
-    }
-</style>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.6.0/dist/tf.min.js"></script>
+    <link rel="stylesheet" src="style.css">
+</head>
 <body>
 
-    <script>  
-        // code
-    </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
+~~~
+
+style.css:
+
+~~~css
+body {
+    background-color: #282525;
+    color: white;
+}
+~~~
+
+script.js:
+
+~~~javascript
+// code here
 ~~~
